@@ -276,10 +276,10 @@ a, button {
 	padding: 30px 50px;
 	cursor: pointer;
 }
-.smbox span:hover {
+/* .smbox span:hover {
 	transform: scale(1.23545);
 	transition: .9s;
-}
+} */
 .smbox .data {
 	font-size: 80px;
 	color: #FA6146;	
@@ -407,6 +407,18 @@ a, button {
 .card:nth-child(2){
 	border-top: 5px solid blue;
 }
+.card:nth-child(3){
+	border-top: 5px solid red;
+}
+.card:nth-child(4){
+	border-top: 5px solid yellow;
+}
+.card:nth-child(5){
+	border-top: 5px solid rgb(216, 0, 36);
+}
+.card:nth-child(6){
+	border-top: 5px solid purple;
+}
 .card:nth-child(1):hover {
 	box-shadow: inset 0px 0px 10px rgba(0,255,0,0.5),
 				1px 1px 30px rgba(0,255,0,0.5);
@@ -414,6 +426,22 @@ a, button {
 .card:nth-child(2):hover {
 	box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
 				1px 1px 30px rgba(0,0,255,0.5);
+}
+.card:nth-child(3):hover {
+	box-shadow: inset 0px 0px 10px rgba(255, 0, 0, 0.53),
+				1px 1px 30px rgba(255, 0, 0, 0.58);
+}
+.card:nth-child(4):hover {
+	box-shadow: inset 0px 0px 10px rgba(255, 255, 0, 0.459),
+				1px 1px 30px rgba(255, 255, 0, 0.534);
+}
+.card:nth-child(5):hover {
+	box-shadow: inset 0px 0px 10px rgb(216, 0, 36,0.5),
+				1px 1px 30px rgb(216, 0, 36,0.5);
+}
+.card:nth-child(6):hover {
+	box-shadow: inset 0px 0px 10px rgba(128, 0, 128, 0.452),
+				1px 1px 30px rgba(128, 0, 128, 0.493);
 }
 .totalcard .card img {
 	width: 100px;
