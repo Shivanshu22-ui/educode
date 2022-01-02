@@ -656,9 +656,10 @@ form textarea {
 	height: 120px;
 	transition-duration: .8s;
 	border-radius: 50%;
+	background-size: cover;
 }
 .identity img:hover {
-	transform: scale(2.2);
+	/* transform: scale(2.2); */
 	border-radius: 0px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
